@@ -1,0 +1,89 @@
+.plansza {
+    width:80%;
+    height:300px;
+    background:#fff;
+    border:1px solid #fff;
+    margin:20px auto;
+    position:relative;
+}
+.haslo {
+    position:absolute;
+    padding:0;
+    margin:0;
+    bottom:10px;
+    left:0;
+    width:100%;
+    text-align:center;
+}
+
+.haslo li {
+    text-transform: uppercase;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: #fefefe;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    margin: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #333;
+    text-align: center;
+    line-height: 70px;
+}
+
+.haslo li.space {
+    border: 0;
+    background: none;
+    box-shadow: none;
+}
+.proby {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    font: 30px kreska-webfont;
+    color: #333;
+    text-align: center;
+}
+.literki {
+    list-style-type:none;
+    margin:10px auto;
+    padding:0;
+    width:1200px;
+    text-align:center;
+}
+
+.literki li,
+.literki li.disabled,
+.literki li.disabled:hover,
+.literki li.clicked,
+.literki li.clicked:hover {
+    display:inline-block;
+    width: 70px;
+    height: 70px;
+    margin:5px;
+    cursor:pointer;
+    text-transform:uppercase;
+    font-size: 20px;
+    font-family: sans-serif;
+    color:#444;
+    text-align:center;
+    line-height:70px;
+    border:1px solid #ddd;
+    background: #fff;
+}
+
+.literki li.disabled,
+.literki li.disabled:hover {
+    background: #eeeeee;
+    color:#ddd;
+    text-shadow:none;
+    cursor:default;
+}
+
+.literki li:hover {
+    background: #EC185D;
+    color:#fff;
+}

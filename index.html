@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodersLab</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="plansza">
+        <div class="proby">
+        </div>
+
+        <ul class="haslo">
+        </ul>
+    </div>
+
+    <ul class="literki">
+        <?php
+            $alphabet = array('a','ą','b','c','ć','d','e','ę','f','g','h','i','j','k','l','ł','m','n','ń','o','ó','p','q','r','s','ś','t','u','v','w','x','y','z','ź','ż');
+            foreach ($alphabet as $letter) {
+                echo '<li>'.$letter."</li>\n";
+        }
+        ?>
+    </ul>
+
+    <input type="button" value="Rozpocznij nową grę :)" id="startGry" />
+
+  <script src="js/app.js"></script>
+</body>
+</html>
