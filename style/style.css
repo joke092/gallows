@@ -1,3 +1,17 @@
+* {
+    box-sizing:border-box;
+}
+
+/* -------------------------------------------------- */
+body {
+    background:#eee;
+}
+
+.page_container {
+    max-width:1600px;
+    min-width:1000px;
+}
+/* -------------------------------------------------- */
 .plansza {
     width:80%;
     height:300px;
@@ -6,47 +20,7 @@
     margin:20px auto;
     position:relative;
 }
-.haslo {
-    position:absolute;
-    padding:0;
-    margin:0;
-    bottom:10px;
-    left:0;
-    width:100%;
-    text-align:center;
-}
-
-.haslo li {
-    text-transform: uppercase;
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-    background: #fefefe;
-    border: 1px solid #ddd;
-    overflow: hidden;
-    margin: 5px;
-    font-size: 20px;
-    font-family: sans-serif;
-    color: #333;
-    text-align: center;
-    line-height: 70px;
-}
-
-.haslo li.space {
-    border: 0;
-    background: none;
-    box-shadow: none;
-}
-.proby {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 40px;
-    height: 40px;
-    font: 30px kreska-webfont;
-    color: #333;
-    text-align: center;
-}
+/* -------------------------------------------------- */
 .literki {
     list-style-type:none;
     margin:10px auto;
@@ -86,4 +60,67 @@
 .literki li:hover {
     background: #EC185D;
     color:#fff;
+}
+/* -------------------------------------------------- */
+.haslo {
+    position:absolute;
+    padding:0;
+    margin:0;
+    bottom:10px;
+    left:0;
+    width:100%;
+    text-align:center;
+}
+
+.haslo li {
+    text-transform: uppercase;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: #fefefe;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    margin: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #333;
+    text-align: center;
+    line-height: 70px;
+}
+
+.haslo li.space {
+    border: 0;
+    background: none;
+    box-shadow: none;
+}
+/* -------------------------------------------------- */
+.proby {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    font-family: sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+/* -------------------------------------------------- */
+button.button,
+input[type=button].button,
+input[type=submit].button {
+    padding: 0.8em 3em;
+    background: #EC185D;
+    color: #FFF;
+    border: 0;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.5s background-color, 0.5s box-shadow;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    margin:30px auto;
 }
