@@ -1,13 +1,13 @@
-var haslo = "Bez pracy nie ma kołaczy";
+let haslo = "no pain no gain";
 haslo = haslo.toUpperCase();
 
-var dlugosc = haslo.length;
-var ile_skuch = 0;
+const dlugosc = haslo.length;
+let ile_skuch = 0;
 
-var yes = new Audio("yes.wav");
-var no = new Audio("no.wav");
+const yes = new Audio("yes.wav");
+const no = new Audio("no.wav");
 
-var haslo1 = "";
+let haslo1 = "";
 
 for (i=0; i<dlugosc; i++)
 {
@@ -22,7 +22,7 @@ function wypisz_haslo()
 
 window.onload = start;
 
-var litery = new Array(35);
+const litery = new Array(35);
 
 litery[0] = "A";
 litery[1] = "Ą";
@@ -65,7 +65,7 @@ litery[34] = "Ź";
 function start()
 {
 
-    var tresc_diva ="";
+    let tresc_diva ="";
 
     for (i=0; i<=34; i++)
     {
@@ -90,7 +90,7 @@ String.prototype.ustawZnak = function(miejsce, znak)
 function sprawdz(nr)
 {
 
-    var trafiona = false;
+    let trafiona = false;
 
     for(i=0; i<dlugosc; i++)
     {
@@ -124,7 +124,7 @@ function sprawdz(nr)
 
         //skucha
         ile_skuch++;
-        var obraz = "img/s"+ ile_skuch + ".jpg";
+        const obraz = "img/s"+ ile_skuch + ".jpg";
         document.getElementById("szubienica").innerHTML = '<img src="'+obraz+'" alt="" />';
     }
 
