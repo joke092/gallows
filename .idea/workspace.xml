@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55e66c3c-0a37-4bf3-a028-8bf690540fd2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallows.js" afterPath="$PROJECT_DIR$/gallows.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallows.ts" afterPath="$PROJECT_DIR$/gallows.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,13 +28,6 @@
       </file>
       <file leaf-file-name="s0.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img/s0.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s2.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/s2.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -73,14 +64,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallows.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gallows.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallows.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2115">
-              <caret line="141" column="4" lean-forward="false" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
+            <state relative-caret-position="177">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding>
                 <marker date="1514237042450" expanded="true" signature="1387:1398" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="15">
+                <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -110,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/hangman_server.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
@@ -125,6 +128,7 @@
         <option value="$PROJECT_DIR$/gallows.js" />
         <option value="$PROJECT_DIR$/gallows.html" />
         <option value="$PROJECT_DIR$/gallows.ts" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -222,12 +226,12 @@
       <workItem from="1513858183946" duration="9031000" />
       <workItem from="1513944354416" duration="1130000" />
       <workItem from="1514147391910" duration="1675000" />
-      <workItem from="1514220573649" duration="1309000" />
+      <workItem from="1514220573649" duration="1524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21666000" />
+    <option name="totallyTimeSpent" value="21881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1366" height="683" extended-state="6" />
@@ -2976,16 +2980,6 @@
     <entry file="file://$PROJECT_DIR$/ember-quickstart/tests/index.html" />
     <entry file="file://$PROJECT_DIR$/ember-quickstart/app/index.html" />
     <entry file="file://$PROJECT_DIR$/ember-quickstart/.eslintrc.js" />
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/szubienica - gotowy skrypt/szubienica.js" />
     <entry file="file://$PROJECT_DIR$/szubienica - gotowy skrypt/szubienica.html" />
     <entry file="file://$PROJECT_DIR$/szubienica - gotowy skrypt/style.css" />
@@ -5733,11 +5727,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gallows.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2115">
-          <caret line="141" column="4" lean-forward="false" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
+        <state relative-caret-position="177">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
             <marker date="1514237042450" expanded="true" signature="1387:1398" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
