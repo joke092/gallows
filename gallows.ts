@@ -24,7 +24,7 @@ function wypisz_haslo()
 }
 
 window.onload = start;
-
+//dsadsaddsadsa
 const litery = new Array(35);
 
 litery[0] = "A";

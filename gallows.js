@@ -1,4 +1,4 @@
-function () {
+
     var haslo = "no pain no gain";
     haslo = haslo.toUpperCase();
     var dlugosc = haslo.length;
@@ -16,6 +16,7 @@ function () {
         document.getElementById("plansza").innerHTML = haslo1;
     }
     window.onload = start;
+    //dsadsaddsadsa
     var litery = new Array(35);
     litery[0] = "A";
     litery[1] = "Ą";
@@ -101,10 +102,10 @@ function () {
         }
         //wygrana
         if (haslo == haslo1)
-            document.getElementById("alfabet").innerHTML = "Tak jest! Podano prawidłowe hasło: " + haslo + '<br /><br /><span class="reset" onclick="location.reload()">JESZCZE RAZ?</span>';
+            document.getElementById("alfabet").innerHTML = "Tak jest! Podano prawidłowe hasło: " + haslo + '<br /><br /><span class="reset" onclick="location.reload()">Once Again?</span>';
         //przegrana
         if (ile_skuch >= 9)
-            document.getElementById("alfabet").innerHTML = "Przegrana! Prawidłowe hasło: " + haslo + '<br /><br /><span class="reset" onclick="location.reload()">JESZCZE RAZ?</span>';
+            document.getElementById("alfabet").innerHTML = "Przegrana! Prawidłowe hasło: " + haslo + '<br /><br /><span class="reset" onclick="location.reload()">Once Again?</span>';
     }
 }
-();
+
