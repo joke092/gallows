@@ -4,10 +4,6 @@ import ReactDOM from 'react-dom';
 document.addEventListener('DOMContentLoaded', () => {
 
 
-
-
-
-
     const divStyle = {
         position: "clear:both"
     };

@@ -100,12 +100,12 @@
             var obraz = "img/s" + ile_skuch + ".jpg";
             document.getElementById("szubienica").innerHTML = '<img src="' + obraz + '" alt="" />';
         }
-        //you win
+        //wygrana
         if (haslo == haslo1)
-            document.getElementById("alfabet").innerHTML = "Tak jest! Podano prawidłowe hasło: " + haslo + '<br /><br /><span class="reset" onclick="location.reload()">Once Again?</span>';
-        //you lose
+            document.getElementById("alfabet").innerHTML = "Tak jest! Podano prawidłowe hasło: " + haslo + '<br /><br /><span class="reset" onclick="location.reload()">JESZCZE RAZ?</span>';
+        //przegrana
         if (ile_skuch >= 9)
-            document.getElementById("alfabet").innerHTML = "Przegrana! Prawidłowe hasło: " + haslo + '<br /><br /><span class="reset" onclick="location.reload()">Once Again?</span>';
+            document.getElementById("alfabet").innerHTML = "Przegrana! Prawidłowe hasło: " + haslo + '<br /><br /><span class="reset" onclick="location.reload()">JESZCZE RAZ?</span>';
     }
-}
+
 
