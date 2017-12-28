@@ -100,10 +100,10 @@
             var obraz = "img/s" + ile_skuch + ".jpg";
             document.getElementById("szubienica").innerHTML = '<img src="' + obraz + '" alt="" />';
         }
-        //wygrana
+        //you win
         if (haslo == haslo1)
             document.getElementById("alfabet").innerHTML = "Tak jest! Podano prawidłowe hasło: " + haslo + '<br /><br /><span class="reset" onclick="location.reload()">Once Again?</span>';
-        //przegrana
+        //you lose
         if (ile_skuch >= 9)
             document.getElementById("alfabet").innerHTML = "Przegrana! Prawidłowe hasło: " + haslo + '<br /><br /><span class="reset" onclick="location.reload()">Once Again?</span>';
     }
