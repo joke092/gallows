@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55e66c3c-0a37-4bf3-a028-8bf690540fd2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gallows.ts" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/s0.jpg" afterPath="$PROJECT_DIR$/img/s0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/s1.jpg" afterPath="$PROJECT_DIR$/img/s1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/s2.jpg" afterPath="$PROJECT_DIR$/img/s2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/s3.jpg" afterPath="$PROJECT_DIR$/img/s3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/s4.jpg" afterPath="$PROJECT_DIR$/img/s4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/s5.jpg" afterPath="$PROJECT_DIR$/img/s5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/s6.jpg" afterPath="$PROJECT_DIR$/img/s6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/s7.jpg" afterPath="$PROJECT_DIR$/img/s7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/s8.jpg" afterPath="$PROJECT_DIR$/img/s8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/s9.jpg" afterPath="$PROJECT_DIR$/img/s9.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallows.html" afterPath="$PROJECT_DIR$/gallows.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallows.js" afterPath="$PROJECT_DIR$/gallows.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.jsx" afterPath="$PROJECT_DIR$/js/main.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +32,8 @@
       <file leaf-file-name="gallows.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallows.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="135">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -41,7 +52,7 @@
       <file leaf-file-name="main.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="60">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -53,7 +64,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
+            <state relative-caret-position="-792">
               <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               <folding />
             </state>
@@ -74,13 +85,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="s5.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/s5.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="s4.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img/s4.jpg">
           <provider selected="true" editor-type-id="images">
@@ -91,24 +95,26 @@
       <file leaf-file-name="gallows.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gallows.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
-              <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
-                <marker date="1514498219948" expanded="true" signature="1663:1674" ph="..." />
+                <marker date="1514561008311" expanded="true" signature="1407:1418" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallows.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gallows.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-              <folding>
-                <marker date="1514409633992" expanded="true" signature="1402:1413" ph="..." />
-              </folding>
-            </state>
+      <file leaf-file-name="s0.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/s0.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s1.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/s1.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -138,8 +144,8 @@
         <option value="$PROJECT_DIR$/szubienica.js" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/gallows.ts" />
         <option value="$PROJECT_DIR$/js/main.jsx" />
+        <option value="$PROJECT_DIR$/gallows.ts" />
         <option value="$PROJECT_DIR$/gallows.html" />
         <option value="$PROJECT_DIR$/gallows.js" />
       </list>
@@ -174,8 +180,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,11 +198,6 @@
               <item name="gallows" type="b2602c69:ProjectViewProjectNode" />
               <item name="gallows" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gallows" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gallows" type="462c0819:PsiDirectoryNode" />
-              <item name="gallows.ts" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -243,25 +244,26 @@
       <workItem from="1514287130749" duration="1085000" />
       <workItem from="1514409619775" duration="259000" />
       <workItem from="1514453820113" duration="299000" />
-      <workItem from="1514492960046" duration="1209000" />
+      <workItem from="1514492960046" duration="1234000" />
+      <workItem from="1514549233577" duration="9715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24774000" />
+    <option name="totallyTimeSpent" value="34514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1366" height="685" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32542372" sideWeight="0.532342" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32542372" sideWeight="0.53828996" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32542372" sideWeight="0.46765798" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32542372" sideWeight="0.46171004" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -379,27 +381,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/s1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/s2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/s0.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/s3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/s6.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -437,17 +424,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="60">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -455,30 +434,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallows.ts">
+    <entry file="file://$PROJECT_DIR$/img/s6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <marker date="1514409633992" expanded="true" signature="1402:1413" ph="..." />
-          </folding>
+        <state relative-caret-position="-792">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gallows.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="135">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gallows.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3297">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/s1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/s0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gallows.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <marker date="1514498219948" expanded="true" signature="1663:1674" ph="..." />
+            <marker date="1514561008311" expanded="true" signature="1407:1418" ph="..." />
           </folding>
         </state>
       </provider>
