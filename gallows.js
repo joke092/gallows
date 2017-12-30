@@ -1,10 +1,10 @@
-let haslo = "no pain no gain";
+const haslo = "no pain no gain";
 haslo = haslo.toUpperCase();
-let dlugosc = haslo.length;
-let ile_skuch = 0;
-let yes = new Audio("yes.wav");
-let no = new Audio("no.wav");
-let haslo1 = "";
+const dlugosc = haslo.length;
+const ile_skuch = 0;
+const yes = new Audio("yes.wav");
+const no = new Audio("no.wav");
+const haslo1 = "";
 for (let i = 0; i < dlugosc; i++) {
     if (haslo.charAt(i) == " ")
         haslo1 = haslo1 + " ";
@@ -16,7 +16,7 @@ function wypisz_haslo() {
 }
 window.onload = start;
 
-let litery = new Array(35);
+const litery = new Array(35);
 litery[0] = "A";
 litery[1] = "Ą";
 litery[2] = "B";
@@ -55,7 +55,7 @@ litery[34] = "Ź";
 function start() {
     var tresc_diva = "";
     for (i = 0; i <= 34; i++) {
-        var element = "lit" + i;
+        const element = "lit" + i;
         tresc_diva = tresc_diva + '<div class="litera" onclick="sprawdz(' + i + ')" id="' + element + '">' + litery[i] + '</div>';
         if ((i + 1) % 7 == 0)
             tresc_diva = tresc_diva + '<div style="clear:both;"></div>';
@@ -79,7 +79,7 @@ function sprawdz(nr) {
     }
     if (trafiona == true) {
         yes.play();
-        let element = "lit" + nr;
+        const element = "lit" + nr;
         document.getElementById(element).style.background = "#003300";
         document.getElementById(element).style.color = "#00C000";
         document.getElementById(element).style.border = "3px solid #00C000";
@@ -88,7 +88,7 @@ function sprawdz(nr) {
     }
     else {
         no.play();
-        let element = "lit" + nr;
+        const element = "lit" + nr;
         document.getElementById(element).style.background = "#330000";
         document.getElementById(element).style.color = "#C00000";
         document.getElementById(element).style.border = "3px solid #C00000";
@@ -96,7 +96,7 @@ function sprawdz(nr) {
         document.getElementById(element).setAttribute("onclick", ";");
         //skucha
         ile_skuch++;
-        let obraz = "img/s" + ile_skuch + ".jpg";
+        const obraz = "img/s" + ile_skuch + ".jpg";
         document.getElementById("szubienica").innerHTML = '<img src="' + obraz + '" alt="" />';
     }
     //wygrana
