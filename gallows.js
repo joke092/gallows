@@ -1,11 +1,11 @@
-const haslo = "no pain no gain";
+let haslo = "no pain no gain";
 haslo = haslo.toUpperCase();
 const dlugosc = haslo.length;
-const ile_skuch = 0;
+let ile_skuch = 0;
 const yes = new Audio("yes.wav");
 const no = new Audio("no.wav");
-const haslo1 = "";
-for (let i = 0; i < dlugosc; i++) {
+let haslo1 = "";
+for (i = 0; i < dlugosc; i++) {
     if (haslo.charAt(i) == " ")
         haslo1 = haslo1 + " ";
     else
@@ -15,8 +15,8 @@ function wypisz_haslo() {
     document.getElementById("plansza").innerHTML = haslo1;
 }
 window.onload = start;
-
-const litery = new Array(35);
+//dsadsaddsadsa
+let litery = new Array(35);
 litery[0] = "A";
 litery[1] = "Ą";
 litery[2] = "B";
@@ -53,7 +53,7 @@ litery[32] = "Z";
 litery[33] = "Ż";
 litery[34] = "Ź";
 function start() {
-    var tresc_diva = "";
+    let tresc_diva = "";
     for (i = 0; i <= 34; i++) {
         const element = "lit" + i;
         tresc_diva = tresc_diva + '<div class="litera" onclick="sprawdz(' + i + ')" id="' + element + '">' + litery[i] + '</div>';
@@ -70,7 +70,7 @@ String.prototype.ustawZnak = function (miejsce, znak) {
         return this.substr(0, miejsce) + znak + this.substr(miejsce + 1);
 };
 function sprawdz(nr) {
-    var trafiona = false;
+    let trafiona = false;
     for (i = 0; i < dlugosc; i++) {
         if (haslo.charAt(i) == litery[nr]) {
             haslo1 = haslo1.ustawZnak(i, litery[nr]);
@@ -101,8 +101,9 @@ function sprawdz(nr) {
     }
     //wygrana
     if (haslo == haslo1)
-        document.getElementById("alfabet").innerHTML = "Tak jest! Podano prawidłowe hasło: " + haslo + '<br /><br /><span class="reset" onclick="location.reload()">JESZCZE RAZ?</span>';
+        document.getElementById("alfabet").innerHTML = "Tak jest! Podano prawidłowe hasło: " + haslo + '<br /><br /><span class="reset" onclick="location.reload()">Once Again?</span>';
     //przegrana
     if (ile_skuch >= 9)
-        document.getElementById("alfabet").innerHTML = "Przegrana! Prawidłowe hasło: " + haslo + '<br /><br /><span class="reset" onclick="location.reload()">JESZCZE RAZ?</span>';
+        document.getElementById("alfabet").innerHTML = "Przegrana! Prawidłowe hasło: " + haslo + '<br /><br /><span class="reset" onclick="location.reload()">Once Again?</span>';
 }
+
