@@ -2,8 +2,8 @@ let haslo = "no pain no gain";
 haslo = haslo.toUpperCase();
 const dlugosc = haslo.length;
 let ile_skuch = 0;
-const yes = new Audio("yes.wav");
-const no = new Audio("no.wav");
+const yes = new Audio("sound/yes.wav");
+const no = new Audio("sound/no.wav");
 let haslo1 = "";
 for (i = 0; i < dlugosc; i++) {
     if (haslo.charAt(i) == " ")
